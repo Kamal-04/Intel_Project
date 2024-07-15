@@ -1,0 +1,6 @@
+train: "path to train data"
+val: "path to val data"
+
+# Classes
+names:
+  0: license_plate
