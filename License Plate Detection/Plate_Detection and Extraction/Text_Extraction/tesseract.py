@@ -25,7 +25,7 @@ cv2.setMouseCallback('RGB', RGB)
 #path to the video feed which contains footage of vehicle passing
 cap = cv2.VideoCapture('mycarplate.mp4')
 
-my_file = open("coco1.txt", "r")
+my_file = open("labels.txt", "r")
 data = my_file.read()
 class_list = data.split("\n") 
 
